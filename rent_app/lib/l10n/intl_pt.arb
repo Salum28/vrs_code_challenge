@@ -1,0 +1,30 @@
+{
+    "@@locale": "pt",
+
+    "exchange_rate_menu_title": "Cotações",
+    "listings_menu_title": "Anúncios",
+    "exchange_rate_form_title": "Crie uma nova cotação",
+    "listing_form_title": "Crie um novo anúncio",
+
+    "brl_field_label": "Valor em Reais",
+    "usd_field_label": "Valor em Dólar",
+    "listing_type_field_label": "Tipo de Anúncio",
+    "listing_type_label_option_one": "Aluguel",
+    "listing_type_label_option_two": "Venda",
+    "brl_price_field_label": "Preço em Reais",
+    "zip_code_field_label": "CEP",
+    "street_field_label": "Endereço",
+    "district_field_label": "Bairro",
+    "city_field_label": "Cidade",
+    "state_field_label": "Estado",
+    "exchange_rate_creation_button_label": "Criar Cotação",
+    "listing_creation_button_label": "Criar Anúncio",
+
+    "exchange_rate_creation_success": "Cotação criada com sucesso!",
+    "listing_creation_success": "Anúncio criado com sucesso!",
+    "exchange_rate_creation_error": "Erro ao criar cotação",
+    "get_current_exchange_rate_error": "Erro ao resgatar cotação atual",
+    "listing_creation_error": "Erro ao criar anúncio",
+    "get_paginated_listings_error": "Erro ao resgatar anúncios paginados",
+    "get_zip_code_error": "Erro ao resgatar CEP"
+}

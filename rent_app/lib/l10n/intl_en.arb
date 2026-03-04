@@ -1,0 +1,30 @@
+{
+    "@@locale": "en",
+
+    "exchange_rate_menu_title": "Exchange Rate",
+    "listings_menu_title": "Listings",
+    "exchange_rate_form_title": "Create a new exchange rate",
+    "listing_form_title": "Create your new listing",
+
+    "brl_field_label": "BRL Value",
+    "usd_field_label": "USD Value",
+    "listing_type_field_label": "Listing Type",
+    "listing_type_label_option_one": "Rent",
+    "listing_type_label_option_two": "Sale",
+    "brl_price_field_label": "BRL Price",
+    "zip_code_field_label": "Zip Code",
+    "street_field_label": "Street",
+    "district_field_label": "District",
+    "city_field_label": "City",
+    "state_field_label": "State",
+    "exchange_rate_creation_button_label": "Create Exchange Rate",
+    "listing_creation_button_label": "Create Listing",
+
+    "exchange_rate_creation_success": "Exchange Rate successfully created!",
+    "listing_creation_success": "Listing successfully created!",
+    "exchange_rate_creation_error": "Error while creating exchange rate",
+    "get_current_exchange_rate_error": "Error while getting current exchange rate",
+    "listing_creation_error": "Error while creating listing",
+    "get_paginated_listings_error": "Error while getting paginated listings",
+    "get_zip_code_error": "Error while getting zip code"
+}
