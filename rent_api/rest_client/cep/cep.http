@@ -1,0 +1,12 @@
+@hostname = http://localhost
+@port = 8080
+@baseURL = {{hostname}}:{{port}}/api/v1
+
+POST {{baseURL}}/cep/get-cep HTTP/2.0
+Content-Type: application/json
+
+{
+    "cep": "13040115"
+}
+
+###

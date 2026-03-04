@@ -1,0 +1,29 @@
+@hostname = http://localhost
+@port = 8080
+@baseURL = {{hostname}}:{{port}}/api/v1
+
+POST {{baseURL}}/listings/create-listing HTTP/2.0
+Content-Type: application/json
+
+{
+    "type": "RENT",
+    "price_brl": 50000.50,
+    "image_path": null,
+    "zip_code": "13040115",
+	"street": "Rua Taquaritinga",
+	"district": "Jardim Nova Europa",
+	"city": "Campinas",
+	"state": "SP"
+}
+
+###
+
+POST {{baseURL}}/listings/get-listings HTTP/2.0
+Content-Type: application/json
+
+{
+    "limit": 10,
+    "offset": 0
+}
+
+###

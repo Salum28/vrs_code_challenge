@@ -1,0 +1,18 @@
+@hostname = http://localhost
+@port = 8080
+@baseURL = {{hostname}}:{{port}}/api/v1
+
+POST {{baseURL}}/exchange-rates/create-exchange-rate HTTP/2.0
+Content-Type: application/json
+
+{
+    "brl_value": 1.00,
+    "usd_value": 5.33
+}
+
+###
+
+GET {{baseURL}}/exchange-rates/get-current-exchange-rate HTTP/2.0
+Content-Type: application/json
+
+###
